@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "crypto-parser"
+version = "0.1.0"
+description = ""
+authors = ["Borteq2"]
+readme = "README.md"
+packages = [{include = "crypto_parser"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pywebio = "^1.7.1"
+telebot = "^0.0.5"
+bs4 = "^0.0.1"
+lxml = "^4.9.2"
+python-dotenv = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
